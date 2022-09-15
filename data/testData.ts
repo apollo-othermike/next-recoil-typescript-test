@@ -1,7 +1,7 @@
 import { atom, selector } from "recoil";
 import request from "axios";
 
-// type by steak enjoys https://github.com/steak-enjoyers/steak-webapp/blob/main/types/index.ts
+// type by steak enjoyers https://github.com/steak-enjoyers/steak-webapp/blob/main/types/index.ts
 export interface ValidatorsResponse {
   validators: {
     operator_address: string;
